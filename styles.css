@@ -224,7 +224,7 @@ hr{
   display: block;
   position: absolute;
   top: 50%;
-  right: 45%;
+  right: 25%;
   opacity: 0.8;
 }
 
@@ -240,9 +240,41 @@ hr{
   display: block;
   position: absolute;
   top: 50%;
-  right: 45%;
+  right: 25%;
   opacity: 1;
 }
+.docs{
+  text-align: center;
+  border-radius: 20%;
+  background-color:
+    /*#85ef47*/
+    /*#639a67*/
+    #525252;
+  height: 25%;
+  width: 25%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  opacity: 0.8;
+}
+
+.docs:hover {
+  text-align: center;
+  border-radius: 20%;
+  background-color:
+    /*#85ef47*/
+    /*#639a67*/
+    #313131;
+  height: 25%;
+  width: 25%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  opacity: 1;
+}
+
 .bottom {
   background-color:
     /*#311d3f*/
